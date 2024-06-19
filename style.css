@@ -1,0 +1,29 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* CABECALHO */
+
+.cabecalho{
+    background-color: #5BBCFF;
+    color: #FFFFFF;  
+}
+.cabecalho__titulo{
+    text-align: center;
+    padding: 20px;
+}
+
+/* RODAPÉ */
+
+.rodape{
+    background-color: #5BBCFF;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    padding: 30px;
+}
+.rodape__titulo, .rodape__paragrafo{
+    text-align: center;
+}
