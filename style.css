@@ -8,10 +8,112 @@
 .cabecalho{
     background-color: #5BBCFF;
     color: #FFFFFF;  
+    width: 100%;
 }
 .cabecalho__titulo{
     text-align: center;
     padding: 20px;
+}
+
+/* CONTEUDO */
+
+.conteudo{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+/* PRODUTOS */
+
+.conteiner{
+    width: 670px;
+}
+
+.produtos-container{
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+.produto{
+    background-color: #5BBCFF;
+    width: 195px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+.imagem-de-produtos{
+    width: 176px;
+    height: 174px;
+    margin: 5px;
+    border-radius: 5px;
+    border: 3px solid black;
+}
+
+.preco-e-lixeirinha{
+    display: flex;
+    gap: 62px;
+}
+
+/* FORMULARIO */
+
+.formulario{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    width: 450px;
+    margin: 30px;
+}
+
+.input-valor{
+    margin: 0 40px;
+    padding: 10px;
+    border-radius: 20px;
+    border: 3px solid #7EA1FF;
+    background-color: #ffd1e3ca;
+    width: 370px;
+}
+
+.input-botoes{
+    display: flex;
+}
+
+.input-botao-adicionar{
+    margin: 0 10px 40px 40px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #7EA1FF;
+    color: #FFFFFF;
+    border: none;
+    width: 100%;
+    
+}
+
+.input-botao-limpar{
+    margin: 0 20px 40px 10px;
+    padding: 10px;
+    border-radius: 12px;
+    border: 3px solid #7EA1FF;
+    background-color: #ffd1e3ca;
+    width: 100%;
+    
+}
+
+/* DEMAIS ESTILOS */
+
+.titulo-produtos{
+    text-align: center;
+    margin: 10px 40px;
+}
+
+.titulo-formulario{
+    text-align: center;
+    margin: 10px 40px 0 40px;
+}
+
+p{
+    font-size: 28px;
+    color: #FFFFFF;
+    margin: 5px;
 }
 
 /* RODAPÉ */
@@ -23,6 +125,9 @@
     flex-direction: column;
     gap: 15px;
     padding: 30px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
 .rodape__titulo, .rodape__paragrafo{
     text-align: center;

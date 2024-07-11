@@ -11,22 +11,87 @@
 <header class="cabecalho">
     <h1 class="cabecalho__titulo">&#10084; AluraFood</h1>
 </header>
-<br>
-<main>
-    <section>
-        <h1></h1>
-        <input type="text">
-        <input type="number">
-        <input type="image">
-        <input type="submit" value="Adicionar">
-        <input type="button" value="Limpar">
-    </section>
+
+<main class="conteudo">
+    <div class="conteiner">
+        <h1 class="titulo-produtos">Meus Produtos:</h1>
+        <div class="produtos-container">
+            <div class="produto">
+                <img src="/imgs/cake.jpg" alt="foto de bolo de unicórnio" class="imagem-de-produtos">
+                <p>Party Cake</p>
+                <div class="preco-e-lixeirinha">
+                    <p>$ 120,00</p>
+                    <img src="/imgs/Vector.svg" alt="Logo de uma lixeirinha">    
+                </div>
+                
+            </div>
+            <div class="produto">
+                <img src="/imgs/macaroon.jpg" alt="foto de unidades de macaroons" class="imagem-de-produtos">
+                <p>Macaroon</p>
+                <div class="preco-e-lixeirinha">
+                    <p>$ 7,00</p>
+                    <img src="/imgs/Vector.svg" alt="Logo de uma lixeirinha">    
+                </div>
+                
+            </div>
+            <div class="produto">
+                <img src="/imgs/docinhos.jpg" alt="Imagem de uma caiximha com alguns docinhos" class="imagem-de-produtos">
+                <p>Candy</p>
+                <div class="preco-e-lixeirinha">
+                    <p>$ 12,00</p>
+                    <img src="/imgs/Vector.svg" alt="Logo de uma lixeirinha">  
+                </div>
+                
+            </div>
+            <div class="produto">
+                <img src="/imgs/combo-party.jpg" alt="Imagem de um kit festa" class="imagem-de-produtos">
+                <p>Combo party</p>
+                <div class="preco-e-lixeirinha">
+                    <p>$ 699,99</p>
+                    <img src="/imgs/Vector.svg" alt="Logo de uma lixeirinha">  
+                </div>
+                
+            </div>
+            <div class="produto">
+                <img src="/imgs/simple-cake.jpg" alt="Imagem de um bolo caseiro de chocolate com cobertura" class="imagem-de-produtos">
+                <p>Simple Cake</p>
+                <div class="preco-e-lixeirinha">
+                    <p>$ 42,00</p>
+                    <img src="/imgs/Vector.svg" alt="Logo de uma lixeirinha"> 
+                </div>
+                
+            </div>
+            <div class="produto">
+                <img src="imgs/cupcake.jpg" alt="Foto de um cupcake" class="imagem-de-produtos">
+                <p>Cupcake</p>
+                <div class="preco-e-lixeirinha">
+                    <p>$ 14,99</p>
+                    <img src="/imgs/Vector.svg" alt="Logo de uma lixeirinha"> 
+                </div>
+                
+            </div>
+        </div>
+    </div>
+
+    <form class="formulario">
+        <h1 class="titulo-formulario">Adicionar Produto:</h1>
+        <input type="text" placeholder="nome..." class="input-valor">
+        <input type="number" placeholder="valor..." class="input-valor">
+        <input type="text" placeholder="link da imagem..." class="input-valor">
+        <div class="input-botoes">
+            <input type="submit" value="Adicionar" class="input-botao-adicionar">
+            <input type="button" value="Limpar" class="input-botao-limpar">
+        </div>
+    </form>
 </main>
+
 <footer class="rodape">
     <h1 class="rodape__titulo">&#10084; AluraFood</h1>
     <p class="rodape__paragrafo">Desenvolvido por Ysterllane</p>
     <p class="rodape__paragrafo">Alura Latam - 2024</p>
 </footer>
+
 <script src="script.js"></script>
+
 </body>
 </html>
